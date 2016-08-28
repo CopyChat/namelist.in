@@ -1,6 +1,6 @@
 !-----------------------------------------------------------------------
 !
-! This README details namelist parameters for RegCM V4
+! This README details namelist parameters for RegCM V4 RegCM-4.5.0
 !
 !-----------------------------------------------------------------------
 !
@@ -136,6 +136,9 @@
  &fnestparam
  coarse_outdir = 'globdata/RegCM', ! Coarse domain output dir if FNEST
  coarse_domname = 'EUROPE',        ! Coarse domain domname
+
+!!!!!!!!!! coarse dir and domain file are needed regardless FNEST, ctang
+!!!!!!!!!!  Sun Aug 28 19:55:13 RET 2016
  /
 !
 ! Perturbation control for ensembles
